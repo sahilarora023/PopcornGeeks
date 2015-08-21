@@ -1,0 +1,182 @@
+/* CSS for logging in as existing user*/
+
+#index_body {
+    background: url(images/background.png);
+    width: 75%
+    margin: 0px auto;
+    min-height: 756px;
+	height:fit-content;
+}
+
+.container {
+    margin: 0px auto;
+    background-color: none;
+    width: 350px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 550px;
+    border-style: none;
+}
+
+#email {
+    width: 300px;
+}
+
+#password {
+    width: 300px;
+}
+
+#loginbtn {
+    width: 100px;
+    margin: 0px auto;
+    margin-left: 45px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#status {
+    color:#ffd800;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+#forgotpass {
+    font-weight: bold;
+    margin: 0px auto;
+    font-size: 14px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+#new_user {
+    color:#ffd800;
+    font-weight: bold;
+    margin-left: 120px;
+        
+}
+
+#newusersignup {
+    width: 100px;
+    margin: 0px auto;
+    margin-left: 40px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/*CSS for Signing Up as New User*/
+
+.container_signup {
+    margin: 0px auto;
+    width: 500px;
+    padding-top: 10px;
+    height: 800px;
+    border-style: none;
+}
+
+#signup_heading {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#ffd800;
+    margin-right: 100px;
+}
+
+#signupform {
+    background-color:#79abe8;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#username, #pass1, #pass2, #gender, #country {
+    width: 300px;
+}
+
+#unamestatus {
+    color:#ffd800;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#terms {
+    width: 320px;
+}
+
+#termsofuse {
+    font-size: 12px;
+}
+
+#signupbtn {
+    width: 200px;
+    margin: 0px auto;
+    margin-left: 45px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* CSS for New User First-Time Login*/
+
+.container_login {
+    margin: 0px auto;
+    width: 500px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 600px;
+    border-style: none;
+}
+
+#login_heading {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 100px;
+    color:#ffd800;
+}
+
+.loginform {
+    background-color:#79abe8;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    height: 450px;
+}
+
+/* CSS - Forgot Password*/
+
+.container_forgotpass {
+    margin: 0px auto;
+    width: 500px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 450px;
+    border-style: none;
+}
+
+#forgotpass_heading {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 100px;
+    color:#ffd800;
+}
+
+#forgotpassform {
+    background-color:#79abe8;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    height: 350px;
+}
+
+#forgotpassbtn {
+    width: 200px;
+    margin-left: 0px auto;
+    height: 50px;
+    font-weight: bold;
+}
+
+#forgotpass_text {
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
